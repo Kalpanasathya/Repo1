@@ -35,7 +35,7 @@ public class SearchRatesService {
    private static final String PROCESS_VALUE_CHANGE                   = "/processValueChange";
    private static final String PROCESS_REVERSE_CHANGE                 = "/processReverseChange";
    private static final String PROCESS_RATE_ROW_SELECTION             = "/processRateRowSelection";
-   private static final String PROCESS_SAVE                           = "/processSave";
+   private static final String PROCESS_SAVE                           = "/processSaved";
    private static final String PROCESS_DELETE                         = "/processDeleted";
    private static final String SERVICE_LOAD_EDIT_RATE_GROUP     = "/loadEditRateGroup";
    private static final String SERVICE_PROCESS_EXPIRATION_DATE_CHANGE = "/processExpirationDateChange";
