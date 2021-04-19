@@ -38,7 +38,7 @@ public class SearchRatesDelegate extends BaseServiceDelegate {
 
    private static final String[] MODEL_ENTITY_TYPE_CODE_CHANGE    = { "pageErrorDcl", "entityTypeCode", "relationshipEntityFieldValue", "titleRelationshipEntityFieldValue" };
    private static final String[] PROCESS_FIND_ACTION              = { "rateGroupDcl", "selectedRateGroupRowDcl", "rateCriteriaFieldSetContainerList", "pageErrorDcl", "hideRateGroupDescriptionSelectItemList", "rateGroupGuid", "selectedRateDescription", "rateGroupTableDcl", "rateGroupDescriptionSelectItemDclList", "rateResultTableDcl", "linkRateGroupButtonAuthorized", "addRatesSearchScreen" };
-   private static final String[] PROCESS_FETCH_RESULTS            = { "rateGroupTableDcl" };
+   private static final String[] PROCESS_FETCH_RESULTS            = {"pageErrorDcl", "rateGroupTableDcl" };
    private static final String[] PROCESS_RATE_GROUP_CHANGE        = { "rateGroupGuid", "rateResultTableDcl", "rateCriteriaFieldSetContainerList", "rateGroupDcl", "selectedRateGroupRowDcl", "selectedRateDescription", "pageErrorDcl", "rateGroupTableDcl" };
    private static final String[] PROCESS_RATE_GROUP_ROW_SELECTION = { "selectedRateGroupRowDcl", "rateResultTableDcl", "rateGroupDcl", "rateCriteriaFieldSetContainerList", "pageErrorDcl", "dynFldCont" };
    private static final String[] PROCESS_FILTER_ACTION            = { "rateResultTableDcl", "pageErrorDcl", "dynFldCont", "rateCriteriaScreenFieldDataDclMap", "rateCriteriaFieldSetContainerList", "selectedRateGroupRowDcl", "rateGroupDcl", "rateSearchCriteriaDcl" };
