@@ -1,0 +1,11 @@
+For every commit, a commit id will be generated along with the user who committed,commit message
+git log - command for recent commits
+git diff commitid1 commitid2 -command to generate differences between two commit versions with ids
+
+
+
+GIT clone: it basically creates a clone of the repository of git from one system to another 
+git clone https://.....
+
+git checkout - restoring to previous version and it is not same as svn checkout
+git checkout commitid - reverts to that particular commit
